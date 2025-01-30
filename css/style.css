@@ -1,0 +1,21 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Catamaran', sans-serif;
+}
+
+:root {
+    --color-1: #fff;
+    --color-2: #060b33;
+    --color-3: #5968f1;
+}
+
+ul {
+    list-style: none;
+}
+
+a {
+    text-decoration: none;
+    color: var(--color-2);
+}
