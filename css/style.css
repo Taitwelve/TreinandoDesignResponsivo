@@ -11,7 +11,7 @@
     --color-3: #5968f1;
 }
 
-ul {
+ul, ol {
     list-style: none;
 }
 
