@@ -45,3 +45,42 @@ header {
         }
     }
 }
+
+.banner {
+    background: url(../images/pexels-kammeran-gonzalez-keola-3137381-30391119.jpg);
+    background-size: cover;
+    min-height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    color: var(--color-2);
+    text-align: center;
+
+    h2 {
+        margin: 20px 0;
+        font-size: 3rem;
+    }
+
+    h3 {
+        font-size: 2rem;
+    }
+
+    .btn {
+        margin-top: 20px;
+        background: var(--color-2);
+        border: 1px solid var(--color-2);
+        border-radius: 4px;
+        color: var(--color-1);
+        padding: 20px 50px;
+        text-align: center;
+        font-weight: 900;
+        transition: .5s;
+        font-size: 1.5rem;
+
+        &:hover {
+            background: transparent;
+            color: var(--color-2);
+        }
+    }
+}
